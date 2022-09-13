@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "186205367841",
+    "project_id": "ossapp-8a1e2",
+    "storage_bucket": "ossapp-8a1e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186205367841:android:6a5a9ba325b37a8cde7d60",
+        "android_client_info": {
+          "package_name": "com.example.dateapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186205367841-iv8udpmp8u4l39lqbvrm117t4luujioq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU2JbUrVNQZX0t-Rj_GgfS0YI65-OO5gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186205367841-iv8udpmp8u4l39lqbvrm117t4luujioq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "186205367841-3cd7gjms6ahu11e0bag8f7u937876057.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dateapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
