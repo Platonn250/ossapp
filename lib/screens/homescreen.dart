@@ -113,7 +113,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 20,
+            height: 20.h,
           ),
           Expanded(
             child: ListView.builder(
@@ -121,14 +121,14 @@ class HomeScreen extends StatelessWidget {
               itemCount: 3,
               itemBuilder: (BuildContext context, int index) {
                 return Padding(
-                  padding:  EdgeInsets.symmetric(horizontal: 6.w),
+                  padding: EdgeInsets.symmetric(horizontal: 6.w),
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
                       color: Color.fromARGB(255, 255, 255, 255),
                     ),
-                    height: 61,
-                    width: 158,
+                    height: 61.h,
+                    width: 158.w,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -139,8 +139,8 @@ class HomeScreen extends StatelessWidget {
                               color: Colors.green,
                               // borderRadius: BorderRadius.circular(12),
                             ),
-                            height: 43,
-                            width: 41,
+                            height: 43.h,
+                            width: 41.w,
                             // child: Image.asset("lib/images/house.jpg"),
                             child: Image.network(
                               images[index],
@@ -249,8 +249,8 @@ class HomeScreen extends StatelessWidget {
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Container(
-                            height: 217,
-                            width: 161,
+                            height: 217.h,
+                            width: 161.w,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(12),
@@ -264,8 +264,8 @@ class HomeScreen extends StatelessWidget {
                                   ClipRRect(
                                     borderRadius: BorderRadius.circular(12),
                                     child: Container(
-                                      height: 150,
-                                      width: 160,
+                                      height: 200.h,
+                                      width: 160.w,
                                       child: Image.network(
                                         foodImages[index],
                                         fit: BoxFit.fill,
@@ -328,9 +328,22 @@ class HomeScreen extends StatelessWidget {
                                           Icons.favorite_border_outlined,
                                           color: Colors.red,
                                         ),
-                                      )
+                                      ),
                                     ],
-                                  )
+                                  ),
+                                  // SizedBox(
+                                  //   height: 10.h,
+                                  // ),
+                                  TextButton(
+                                      onPressed: () {},
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text("Explore"),
+                                          Icon(Icons.play_circle)
+                                        ],
+                                      ))
                                 ],
                               ),
                             ),
